@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+/* для обычных текстов */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto&display=swap');
+/* для кнопок */
+
+*{
+    font-family: Nunito Sans;
+}
+
+body {
+    background: #ebebeb;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+input{
+    border-radius: 5px;
+    background:lightblue;
+    margin: 10px auto ;
+    display: block;
+    font-size: 15px;
+    transition: all .3s;
+}
+input:hover{
+    background: rgb(152, 186, 198);
+}
+.container{
+    margin: auto;
+    width: 800px;
+}
+
+
+
+/* ################################################################ */
+
+
+
+
+#header{
+    margin-top: 80px;
+}
+
+
+
+/* ####################################3 */
+
+.card{
+    
+    border: none;
+    width: 800px;
+    margin: auto;
+}
+
+
+.table{
+    width: 100%;
+}
+
+
+
+.table td{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ .table tr:nth-child(even){
+    background: #fff;
+}
+
+
+
+
+
+#about {
+    padding: 3px 10px;
+}
+#about h2{
+    font-size: 50px;
+    font-family: inherit;
+    text-align: left;
+    margin: 10px;
+}
+#about h3{
+    font-family: inherit;
+    font-style: italic;
+    color: rgb(85, 85, 85);
+    width: 550px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.allnum{
+    margin: 0;
+}
+
+ .numeration{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    
+}
+.numeration ul{
+    list-style: none;
+    border-radius: 10px;
+    color: #271e1e;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.numeration ul li{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+
+.numeration li, p{
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  ##################################*/
+
+
+
+img{
+    margin-left: -239px;
+}
+
+
+
+
+
+
+
+
+/* ######################## */
+.about{
+    padding: 3px 10px;
+}
+.about h1{
+    font-size: 30px;
+}
+.about p, .about ul li{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(85, 85, 85);
+    text-align: center;}
+
+/* ################################*/
+
+.bu{
+    padding-bottom: 20px;
+}
+.bu a{
+    text-decoration: none;
+}
+
+
+button{
+    margin: 0 auto;
+    display: block;
+    padding: 5px 15px;
+    font-family: Roboto;
+}
+
+.but button{
+    border: none;
+    margin: auto;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 20px;
+    background: #afd9ee;
+    border-radius: 5px; 
+    transition: all .3s;
+    
+}
+
+.but button:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+/* #######################################3 */
+
+.detale{
+    max-width: 100%;
+    background: #F0FFFF;
+}
+.textdet{
+    margin: auto;
+    padding: 15px;
+    width: 800px;
+
+}
+
+.blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.block{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    box-sizing: border-box;
+    
+}
+
+.block p{
+    padding: 0;
+    margin: 5px;
+    text-align: left;
+
+}
+
+
+.achivements{
+    padding: 3px 10px;
+}
+
+
+
+/* ############################## */
+
+
+
+.footer{
+    background: #eee;
+    color:#000;
+}
+.footer ul{
+    text-align: center;
+    list-style: none; 
+    background: #eee;
+}
+.footer ul li{
+    padding: 3px;
+}
+.mention{
+    margin: 10px;
+    padding: 0;
+}
+.footer p{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.footer img{
+    margin: 0;
+}
+.footer a{
+    color: #000;
+    text-decoration: none;
+}
+.footer a:visited{
+    color: #271e1e;
+}

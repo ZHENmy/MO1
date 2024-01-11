@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background: #E4F9F5;
+    scroll-behavior: smooth;
+    font-family: Montserrat;
+    
+    
+}
+.header{
+    margin-top: 250px;
+    text-align: center;
+    /* шрифт*/
+    
+}
+.header h1, .header h2, .button{
+    padding: 10px;
+}
+.button button{
+    border-radius: 5px;
+    padding: 10px;
+    background:  #78DBE2;;
+    border: 2px solid rgb(115, 196, 223);
+    font-size: 17px;
+}
+
+.scrolling h2{
+    font-family: Rubik Doodle Shadow;
+    color: rgb(43, 111, 111);
+    margin-left:54px;
+    font-size: 35px;
+    
+}
+.people{
+    display: flex;
+   font-size: 18px;
+}
+
+
+.scrolling,
+.scrolling h2,
+.people{
+    background: #b4e6e0;
+}
+
+
+
+
+.box{
+    border: 2px solid #e66a30;
+    border-radius: 10px;
+    margin: 30px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box h3, p{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.box h3{
+    font-size: 30px;
+}
+.box a{
+    margin-top: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+.olimp{
+    margin: 10px 20px;    
+} 
+.olimp h2{
+    font-family: Rubik Doodle Shadow;
+    color: rgb(43, 111, 111);
+    margin-left:30px;
+    font-size: 35px;
+}
+
+
+.uni{
+    margin: 10px 20px;
+    display: flex;
+}
+.university{
+    margin: 10px 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+
+}
+
+
+.blocks{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction:row; 
+}
+.block{
+    margin: 10px 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+    width: 500px;
+    background: #b4e6e0;
+    font-family: 'Roboto Slab';
+    display: flex;
+    flex-direction: column
+}
+.block p{
+    margin-top: auto;
+    text-align: center;
+    background: #b4e6e0;
+}
+
+.block a{
+    background: #b4e6e0;    
+}
+
+
+.name{
+    border-radius: 10px;
+    /* background: #b4e6e0; */
+    background:  #98cfd383;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    font-weight: 400;
+    font-size: 20px;  
+}
+.name1{
+    padding: 10px;
+    background:  #98cfd383;
+    border-radius: 10px;
+}
+#ft, #ss, #ft2, #ss2{
+    padding: 14px;
+}
+
+.subject {
+    padding: 5px;
+    background: #b4e6e0;
+    text-align: left;
+}
+.subject1{
+    padding: 5px;
+    background: inherit;
+    border-radius: 10px;
+    
+}
+.date{
+    padding: 5px;
+    text-align: right;
+    background: inherit;
+}
+
+
+
+
+
+button{
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background:  #78DBE2;;
+    border: 2px solid rgb(115, 196, 223);
+    transition: all .3s;
+}
+
+button:hover{
+    vertical-align: middle;
+    background:  #98cfd383;
+    cursor: pointer;
+    
+}
+button:focus {
+    vertical-align: middle;
+    color: #01a715;
+}
+
+
+
